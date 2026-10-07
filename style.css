@@ -1,0 +1,274 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color:rgb(172, 27, 27);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#bannerPrincipal {
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+
+    color: black;
+    text-align: center;
+
+    padding-top: 50px;
+}
+
+#bannerPrincipal p {
+    font-size: 20px;
+}
+
+main,
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+img {
+    width: 250px;
+}
+
+#hondacivic,
+#Corolla,
+#Onix {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.marca1,
+.marca2,
+.marca3,
+.marca4,
+.marca5,
+.marca6,
+.marca7,
+.marca8 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.marca1 img,
+.marca2 img,
+.marca3 img,
+.marca4 img,
+.marca5 img,
+.marca6 img,
+.marca7 img,
+.marca8 img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.ofertas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-oferta {
+    background-color: white;
+
+    width: 250px;
+
+    padding: 20px;
+    margin: 10px;
+
+    text-align: center;
+}
+
+.card-oferta img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-oferta h2 {
+    color:rgb(172, 27, 27);;
+}
+
+.botao {
+    background-color:rgb(172, 27, 27);;
+    color: white;
+
+    padding: 10px;
+
+    text-decoration: none;
+
+    display: inline-block;
+}
+
+form {
+    background-color: white;
+
+    padding: 20px;
+
+    width: 300px;
+}
+
+input {
+    width: 250px;
+    padding: 8px;
+}
+
+textarea {
+    width: 250px;
+    height: 100px;
+}
+
+button {
+    background-color:rgb(172, 27, 27);;
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 30px;
+}
+/* PÁGINAS DAS MARCAS */
+
+.carros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carro {
+    background-color: white;
+    width: 90%;
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.carro img {
+    width: 250px;
+    height: 180px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.carro h3 {
+    color: rgb(172, 27, 27);
+    font-size: 24px;
+}
+
+.carro p {
+    font-size: 16px;
+}
+
+.carro strong {
+    color: rgb(172, 27, 27);
+    font-size: 20px;
+}
+
+.carros hr {
+    width: 90%;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+/* BOTÃO VER CARROS */
+.marcas a {
+    display: inline-block;
+    background-color: rgb(172, 27, 27);
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.marcas a:hover {
+    background-color: #8f1616;
+}
+/* responsividade */ 
+ .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .colunas {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+/* Responsividade para telas menores */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .menu a {
+        font-size: 14px;
+    }
+
+    button {
+        width: 90%;
+    }
+}
